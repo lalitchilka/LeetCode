@@ -12,7 +12,7 @@ public class LongestPalindromicSubstring {
 		
 		for(int i = 0; i < s.length(); i++) {
 			expandFromMiddle(s, i, i); // for odd length
-			expandFromMiddle(s, i, i + 1); // for even length
+			expandFromMiddle(s, i, i + 1); // for even length.
 		}
 		
 		return s.substring(start, start + maxLen);
