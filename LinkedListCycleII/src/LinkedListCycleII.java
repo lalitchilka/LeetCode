@@ -14,6 +14,7 @@ public class LinkedListCycleII {
 		
 		ListNode result = detectCycle(l1);
 		System.out.println(result.val);
+		
 	}
 	
 	public static ListNode detectCycle(ListNode head) {
