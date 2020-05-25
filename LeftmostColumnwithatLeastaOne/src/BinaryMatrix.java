@@ -1,6 +1,4 @@
-import java.util.List;
+package PACKAGE_NAME;
 
 public interface BinaryMatrix {
-    public int get(int x, int y);
-    public List<Integer> dimensions();
 }

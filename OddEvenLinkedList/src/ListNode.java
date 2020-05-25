@@ -1,8 +1,4 @@
-public class ListNode {
-    int val;
-    ListNode next;
+package PACKAGE_NAME;
 
-    public ListNode(int val){
-        this.val = val;
-    }
+public class ListNode {
 }
